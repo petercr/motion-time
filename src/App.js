@@ -14,7 +14,7 @@ function App() {
           initial={{ opacity: 0.25 }}
           whileHover={{ scale: 1.25 }}
           whileTap={{ scale: 0.5, duration: 0.5 }}
-          drag="x"
+          drag
           dragConstraints={constraintsRef}
         >
           <img src={logo} className="App-logo" alt="logo" />
