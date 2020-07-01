@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In addition to `react-scripts` this project also uses [Framer Motion](https://www.framer.com/motion).
 
+If you want to go straight to the [Framer Motion Docs, click here.](https://www.framer.com/api/motion/)
+
 ## Available Scripts
 
 In the project directory, you can run:
