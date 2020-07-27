@@ -17,7 +17,7 @@ function App() {
           drag
           dragConstraints={constraintsRef}
         >
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={logo} className="App-logo" alt="React JS Logo" />
         </motion.div>
         <p>
           Feel free to check out the source code, I hope you all had lots of fun! <span role="img" aria-label="a party popper shooting ribbons">🎉</span>
