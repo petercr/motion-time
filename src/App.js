@@ -9,6 +9,7 @@ function App() {
     <div className="App" >
       <header className="App-header" ref={constraintsRef}>
         <motion.div
+          layout
           animate={{ rotate: 360, opacity: 1 }}
           transition={{ yoyo: Infinity, ease: "easeInOut", duration: 2 }}
           initial={{ opacity: 0.25 }}
