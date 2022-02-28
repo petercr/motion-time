@@ -6,8 +6,8 @@ import "./App.css";
 function App() {
   const constraintsRef = useRef(null);
   return (
-    <div className="App" >
-      <header className="App-header" ref={constraintsRef}>
+    <div className="App">
+      <main className="App-body" ref={constraintsRef}>
         <motion.div
           animate={{ rotate: 360, opacity: 1 }}
           transition={{ yoyo: Infinity, ease: "easeInOut", duration: 2 }}
@@ -20,7 +20,11 @@ function App() {
           <img src={logo} className="App-logo" alt="logo" />
         </motion.div>
         <p>
-          Feel free to check out the source code, I hope you all had lots of fun! <span role="img" aria-label="a party popper shooting ribbons">🎉</span>
+          Feel free to check out the source code, I hope you all had lots of
+          fun!{" "}
+          <span role="img" aria-label="a party popper shooting ribbons">
+            🎉
+          </span>
         </p>
         <a
           className="App-link"
@@ -30,7 +34,7 @@ function App() {
         >
           Source Code on GitHub
         </a>
-      </header>
+      </main>
     </div>
   );
 }
