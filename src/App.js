@@ -7,7 +7,7 @@ function App() {
   const constraintsRef = useRef(null);
   return (
     <div className="App" >
-      <header className="App-header" ref={constraintsRef}>
+      <main className="App-main" ref={constraintsRef}>
         <motion.div
           layout
           animate={{ rotate: 360, opacity: 1 }}
@@ -31,7 +31,7 @@ function App() {
         >
           Source Code on GitHub
         </a>
-      </header>
+      </main>
     </div>
   );
 }
