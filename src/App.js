@@ -11,7 +11,12 @@ function App() {
         <motion.div
           layout
           animate={{ rotate: 360, opacity: 1 }}
-          transition={{ yoyo: Infinity, ease: "easeInOut", duration: 2 }}
+          transition={{
+            repeat: Infinity,
+            repeatType: "loop",
+            ease: "easeInOut",
+            duration: 2
+          }}
           initial={{ opacity: 0.25 }}
           whileHover={{ scale: 1.25 }}
           whileTap={{ scale: 0.5, duration: 0.5 }}
