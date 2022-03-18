@@ -13,7 +13,7 @@ function App() {
           animate={{ rotate: 360, opacity: 1 }}
           transition={{
             repeat: Infinity,
-            repeatType: "loop",
+            repeatType: "mirror",
             ease: "easeInOut",
             duration: 2
           }}
